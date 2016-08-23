@@ -5,6 +5,3 @@ def shout(phrase):
         return "Can you speak up?"
 
 shout("I'M INTERESTED IN SHOUTING")
-
-
-shout()
