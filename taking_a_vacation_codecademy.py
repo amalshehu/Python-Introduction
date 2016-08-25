@@ -3,8 +3,7 @@ def hotel_cost(nights):
 
 
 def plane_ride_cost(city):
-
-        if (city=="Charlotte"):
+    if (city=="Charlotte"):
         return 183
 
     elif city=="Tampa":
@@ -15,7 +14,7 @@ def plane_ride_cost(city):
 
     elif city=="Los Angeles":
         return 475
-        
+
 
 def rental_car_cost(days):
     rent= 40 * days
@@ -27,5 +26,6 @@ def rental_car_cost(days):
         rent -= 20
     return rent
 
-    def trip_cost(city,days):
-        return rental_car_cost(days)+plane_ride_cost(city)+hotel_cost(days)
+
+def trip_cost(city,days,spending_money):
+        return (rental_car_cost(days)+plane_ride_cost(city)+hotel_cost(days)) +  spending_money
