@@ -10,4 +10,4 @@ print ("list2[5:7] ", list2[5:7])
 
 print ("Value  at index 2 : ", list1[2])
 list1[2] = 2016
-print ("New value at index 2 : ", list1[2])
+print ("Updated value at index 2 : ", list1[2])
