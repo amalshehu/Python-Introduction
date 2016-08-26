@@ -6,8 +6,11 @@ person['Name'] = input("Enter your name :")
 
 person['Age'] = input("Enter your age :")  # update existing entry
 person['Blood Group'] = input("Enter your Blood Group :")
-person['Language'] = "Python"  # Add new entry
+person['Language'] = "Python"
 
+
+print ("############################################################")
 print ("Name :", person['Name'])
-print ("person['Age']: ", person['Age'])
+print ("Age: ", person['Age'])
+print ("Blood Group :", person['Blood Group'])
 print ("person['Language']: ", person['Language'])
