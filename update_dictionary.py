@@ -1,13 +1,10 @@
 #!/usr/bin/python3
 
 person = {'Name': 'Amal Shehu', 'Age': 23, 'Blood Group': 'A+'}
-
 person['Name'] = input("Enter your name :")
-
 person['Age'] = input("Enter your age :")  # update existing entry
 person['Blood Group'] = input("Enter your Blood Group :")
 person['Language'] = "Python"
-
 c = input("Do you want to print the details ? (y/n)")
 
 if (c == 'y'):
@@ -19,7 +16,6 @@ if (c == 'y'):
 
 elif (c == 'n'):
     print ("Thank You! Have a nice day!!!")
-
 
 else:
     print ("Invalid Input")
