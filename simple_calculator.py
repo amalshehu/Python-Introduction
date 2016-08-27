@@ -1,5 +1,7 @@
 # simple calculator
 
+# Arithmetic Functions
+
 
 def add(x, y):
     return x+y
@@ -21,10 +23,11 @@ print("2.Subtract")
 print("3.Multiply")
 print("4.Divide")
 
-ch = input("Enter your ch :")
+ch = input("Enter your ch :")  # user input
+
 num1 = int(input("Enter first number: "))
 num2 = int(input("Enter second number: "))
-if ch == '1':
+if ch == '1':      # choice selection
     print(num1, "+", num2, "=", add(num1, num2))
 
 elif ch == '2':
