@@ -4,7 +4,7 @@
 km = float(input('How many km?: '))
 
 # conversion factor
-conv_fac = 0.6
+conv_fac = 0.621371
 
 # calculate miles
 miles = km * conv_fac
