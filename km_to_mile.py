@@ -8,4 +8,4 @@ conv_fac = 0.621371
 
 # calculate miles
 miles = km * conv_fac
-print('%0.3f km is equal to %0.3f miles' %(km,miles))
+print('%0.3f km is equal to %0.3f miles' % (km, miles))
