@@ -1,4 +1,4 @@
-#  File:       use_of_function.py
+#  File:       factorial_recursion.py
 #  Purpose:    Example: FActorial using recursion
 #  Programmer: Amal Shehu
 #  Course:     Practice
