@@ -12,4 +12,5 @@ y = 5
 print (twice(y))
 z = "Spam "
 print (twice(z))  # * operator is overloaded
+
 print ("An example for polymorphism.The * opearator is overloaded.")
