@@ -5,10 +5,13 @@
 #  Date:       Sunday 28th August 2016, 11:10 PM
 
 
-factorial=1
+
 num=input("Enter a number")
-def factorial(n):
-    if (n==0):
+def factorial(num):
+    if (num==0):
         return 1
     else:
-        return factorial*factorial(n-1)
+        return num*factorial(num-1)
+
+result=factorial(num)
+print(result)
