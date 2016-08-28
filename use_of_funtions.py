@@ -14,6 +14,17 @@
     We are using a  simple pause function,
     to pause a program until a key is pressed.
 
+    When function called, all the lines in the
+    function definition (def) are executed in order,
+    then the program resumes at the point after the function call.
+
+    This program script starts executing at the line:
+    startMsg()
+    followed by the line:
+    clrScreen()
+    followed by the line:
+    print ("Testing me")
+
 
 '''
 
