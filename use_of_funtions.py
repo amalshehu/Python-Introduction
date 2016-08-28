@@ -29,33 +29,37 @@
 '''
 
 
-
 def pause():
     input("\n\nPress any key to continue...\n\n")
+
 
 def quitMessage():
     print ("Thanks for using this me")
     print ("Have a nice day!!!Goodbye")
 
+
 def printThreeLines():
-    for i in range(1,4):
+    for i in range(1, 4):
         print ('Im from ' + str(i))
 
+
 def printNineLines():
-    for i in range(1,4):
+    for i in range(1, 4):
         printThreeLines()
+
 
 def startMsg():
     print ("Im demonstrating the use of Python functions")
     pause()
 
+
 def blank_Line():
     print()
 
-def clrScreen():
-    for i in range(1,26):
-        blank_Line()
 
+def clrScreen():
+    for i in range(1, 26):
+        blank_Line()
 
 
 startMsg()
