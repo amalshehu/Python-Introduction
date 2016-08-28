@@ -6,7 +6,7 @@
 
 
 
-int num=  input ("Enter a number")
+num=  int(input ("Enter a number"))
 def factorial(num):
     if (num==0):
         return 1
