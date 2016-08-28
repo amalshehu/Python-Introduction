@@ -44,3 +44,18 @@ def blank_Line():
 def clrScreen():
     for i in range(1,26):
         blank_Line()
+
+
+
+startMsg()
+clrScreen()
+print ("Testing me")
+printNineLines()
+pause()
+clrScreen()
+printNineLines()
+blank_Line()
+printNineLines()
+pause()
+clrScreen()
+quitMessage()
