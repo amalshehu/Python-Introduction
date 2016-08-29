@@ -3,26 +3,29 @@
 #  Programmer: Amal Shehu
 #  Course:     Codecademy
 #  Date:       Monday 29th August 2016, 11:35 AM
-total = 0
-prices = {
-    "banana": 4,
-    "apple": 2,
-    "orange": 1.5,
-    "pear": 3,
-}
+
+
+shopping_list = ["banana", "orange", "apple"]
+
 stock = {
     "banana": 6,
     "apple": 0,
     "orange": 32,
-    "pear": 15,
+    "pear": 15
 }
 
-for key in prices:
-    print (key)
-    print ("price: %s" % prices[key])
-    print ("stock: %s" % stock[key])
-for key in prices:
-    total += prices[key]*stock[key]
+prices = {
+    "banana": 4,
+    "apple": 2,
+    "orange": 1.5,
+    "pear": 3
+}
 
 
-print total
+def compute_bill(food):
+    total = 0
+    for item in food:
+        if stock[item] > 0:
+            total = total + prices[item]
+            stock[item] -= 1
+    return total
