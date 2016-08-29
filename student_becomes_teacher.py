@@ -59,5 +59,8 @@ def get_letter_grade(score):
     else:
         return "F"
 
-
-    
+def get_class_average(students):
+    results = []
+    for student in students:
+        results.append(get_average(student))
+    return average(results)
