@@ -26,7 +26,14 @@ tyler = {
 
 students = [lloyd,alice,tyler]
 for student in students:
-    print student["name"]
-    print student ["homework"]
-    print student ["quizzes"]
-    print student ["tests"]
+    print (student["name"])
+    print (student ["homework"])
+    print (student ["quizzes"])
+    print (student ["tests"])
+
+def average(numbers):
+    total = sum(numbers)
+    total = float(total)
+    n = len(numbers)
+    result=total/n
+    return result        
