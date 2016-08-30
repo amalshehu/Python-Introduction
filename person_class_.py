@@ -26,7 +26,7 @@ class Person:
 
         return age
 
-person = Person("Amal","Shehu",datetime.date(1993, 7, 16),
+person = Person("Amal","Shehu", datetime.date(1993, 7, 16),
     "No. 12 Spike Street,Trivandrum","828 182 0382",
     "amalshehu@gmail.com")
 
