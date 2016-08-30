@@ -6,3 +6,4 @@
 
 my_list = range(16)
 filter(lambda x: x % 3 == 0, my_list)
+print("Lambdas are useful when you need a quick function to do some work for you")
