@@ -11,3 +11,6 @@ class Fruit(object):
         self.color = color
         self.flavor = flavor
         self.poisonous = poisonous
+
+    def description(self):
+        print "I'm a %s %s and I taste %s." % (self.color, self.name, self.flavor)
