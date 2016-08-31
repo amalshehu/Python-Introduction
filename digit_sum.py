@@ -14,4 +14,4 @@ def digit_sum(x):
         total = total + int(item)
     return total
 
-digit_sum(x)
+print (digit_sum(x))
