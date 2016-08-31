@@ -8,7 +8,10 @@ x = int(input("Enter a number :"))
 
 
 def digit_sum(x):
-    list = [x]
-    for item in list:
+    total = 0
+    digits = str(x)
+    for item in digits:
         total += item
-return total
+    return total
+
+digit_sum(x)
