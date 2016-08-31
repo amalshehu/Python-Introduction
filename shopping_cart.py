@@ -2,7 +2,7 @@
 #  Purpose:    Example : Implementation of class (OOP)
 #  Programmer: Amal Shehu
 #  Course:     Codecademy
-#  Date:       Tuesday 31st August 2016, 10:10 AM
+#  Date:       Wednesday 31st August 2016, 10:10 AM
 
 class ShoppingCart(object):
     """Creates shopping cart objects

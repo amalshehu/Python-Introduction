@@ -2,7 +2,7 @@
 #  Purpose:    Inheritance is a tricky concept, so let's go through it step by step.
 #  Programmer: Amal Shehu
 #  Course:     Codecademy
-#  Date:       Tuesday 31st August 2016, 10:20 AM
+#  Date:       Wednesday  31st August 2016, 10:20 AM
 
 class Customer(object):
     """Produces objects that represent customers."""
