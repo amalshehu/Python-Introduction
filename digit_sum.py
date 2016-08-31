@@ -11,7 +11,7 @@ def digit_sum(x):
     total = 0
     digits = str(x)
     for item in digits:
-        total += item
+        total = total + int(item)
     return total
 
 digit_sum(x)
