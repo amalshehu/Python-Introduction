@@ -9,7 +9,8 @@ x = raw_input("Enter a number :")
 
 
 def is_int(x):
-    if x - int(x) > 0:
-        return True
-    else:
-        return False
+                       # if x - int(x) > 0: #failed
+        if x % 1 == 0:
+            return True
+        else:
+            return False
