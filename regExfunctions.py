@@ -37,3 +37,7 @@ print re.split("(:)", string)
 # Replace all occurrences of space, comma, or dot with colon
 print re.sub("[ ,.]", ":", string)
 # Many:applications:use:Python:as:an:embedded:scripting:language:
+
+# Replace maximum 2 occurences of pattern
+print re.sub("[ ,.]", ":", string, 2)
+# Many:applications:use Python as an embedded scripting language.
