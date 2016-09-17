@@ -46,6 +46,10 @@ print re.sub("[ ,.]", ":", string, 2)
 print re.subn("[ ,.]", ":", string)
 # ('Many:applications:use:Python:as:an:embedded:scripting:language:', 9)
 
-# Find all four characthers long words
+# Find all four characters long words
 print re.findall(r"\b\w{4}\b", string)
 # ['Many']
+
+# Find all two, three, or four characters long words
+print re.findall(r"\b\w{2,4}\b", string)
+# ['Many', 'use', 'as', 'an']
