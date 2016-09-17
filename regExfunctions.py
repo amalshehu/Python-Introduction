@@ -12,3 +12,6 @@ for match in _iter:
     print "'{g}' was found between the indices {s}".format(g=match.group(), s=match.span())
 # 'as' was found between the indices (29, 31)
 # 'an' was found between the indices (32, 34)
+
+# Split string by any character which is not a UNICODE word character
+print re.split("\W+", string)
