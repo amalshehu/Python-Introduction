@@ -33,3 +33,7 @@ print re.split("\W+", string, 4)
 # string is returned as the first element of the list
 print re.split("(:)", string)
 # ['Many applications use Python as an embedded scripting language.']
+
+# Replace all occurrences of space, comma, or dot with colon
+print re.sub("[ ,.]", ":", string)
+# Many:applications:use:Python:as:an:embedded:scripting:language:
