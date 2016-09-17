@@ -44,3 +44,8 @@ print re.sub("[ ,.]", ":", string, 2)
 
 # Replace as 'sub', but return a tuple of (new string, number of replacements)
 print re.subn("[ ,.]", ":", string)
+# ('Many:applications:use:Python:as:an:embedded:scripting:language:', 9)
+
+# Find all four characthers long words
+print re.findall(r"\b\w{4}\b", string)
+# ['Many']
