@@ -41,3 +41,6 @@ print re.sub("[ ,.]", ":", string)
 # Replace maximum 2 occurences of pattern
 print re.sub("[ ,.]", ":", string, 2)
 # Many:applications:use Python as an embedded scripting language.
+
+# Replace as 'sub', but return a tuple of (new string, number of replacements)
+print re.subn("[ ,.]", ":", string)
