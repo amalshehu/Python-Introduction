@@ -28,3 +28,8 @@ print re.split("\W+", string, 3)
 # Split string by any character which is not a UNICODE word character at most 4 split
 print re.split("\W+", string, 4)
 # ['Many', 'applications', 'use', 'Python', 'as an embedded scripting language.']
+
+# If the splitting pattern does not occur in the string,
+# string is returned as the first element of the list
+print re.split("(:)", string)
+# ['Many applications use Python as an embedded scripting language.']
