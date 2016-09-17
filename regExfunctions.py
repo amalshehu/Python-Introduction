@@ -15,3 +15,16 @@ for match in _iter:
 
 # Split string by any character which is not a UNICODE word character
 print re.split("\W+", string)
+# ['Many', 'applications', 'use', 'Python', 'as', 'an', 'embedded', 'scripting', 'language', '']
+
+# Split string by any character which is not a UNICODE word character at most 2 split
+print re.split("\W+", string, 2)
+# ['Many', 'applications', 'use Python as an embedded scripting language.']
+
+# Split string by any character which is not a UNICODE word character at most 3 split
+print re.split("\W+", string, 3)
+# ['Many', 'applications', 'use', 'Python as an embedded scripting language.']
+
+# Split string by any character which is not a UNICODE word character at most 4 split
+print re.split("\W+", string, 4)
+# ['Many', 'applications', 'use', 'Python', 'as an embedded scripting language.']
